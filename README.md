@@ -5,11 +5,9 @@ My target is to have a cloud repository for my main projects, so that I can fetc
 My coding is mainly about Numerical Analysis.
 I'm not yet ready to use Git; in the meanwhile I will practice with this Hallo World repository.
 I have learned something about 'git clone' and 'git push'. Want to learn now, about 'fetch' & 'merge'.
-<<<<<<< HEAD
-Gonna try now the merge command.
 
-=======
+Gonna try now the merge command.
 On Monday 23#07#2018 I added a branch called "namedBranch" on the remote and then fetched it on the local (i.e. git fetch origin namedBranch)
 then swithced to it, on the fileSystem (i.e. git checkout namedBranch ). Next step: I'll try a non fast-forward merge.
->>>>>>> fbaa04b7a898c5f59975a1804b34ccea388f8732
-
+ 
+Gonna try now the merge command.
