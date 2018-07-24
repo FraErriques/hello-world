@@ -5,4 +5,6 @@ My target is to have a cloud repository for my main projects, so that I can fetc
 My coding is mainly about Numerical Analysis.
 I'm not yet ready to use Git; in the meanwhile I will practice with this Hallo World repository.
 I have learned something about 'git clone' and 'git push'. Want to learn now, about 'fetch' & 'merge'.
+Gonna try now the merge command.
+
 
