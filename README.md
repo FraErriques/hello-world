@@ -7,4 +7,5 @@ I'm not yet ready to use Git; in the meanwhile I will practice with this Hallo W
 I have learned something about 'git clone' and 'git push'. Want to learn now, about 'fetch' & 'merge'.
 On Monday 23#07#2018 I added a branch called "namedBranch" on the remote and then fetched it on the local (i.e. git fetch origin namedBranch)
 then swithced to it, on the fileSystem (i.e. git checkout namedBranch ). Next step: I'll try a non fast-forward merge.
+Today I'll add some useful files, to share with other projects.
 
