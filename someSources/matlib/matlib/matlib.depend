@@ -1,0 +1,119 @@
+# depslib dependency file v1.0
+1320679120 source:c:\root\projects\githubsandbox\hello-world\somesources\matlib\complex\complex.cpp
+	"complex.h"
+	"../common_data/common_data.h"
+	"../real/real.h"
+	<cmath>
+
+1058558756 c:\root\projects\githubsandbox\hello-world\somesources\matlib\complex\complex.h
+
+1058558756 c:\root\projects\githubsandbox\hello-world\somesources\matlib\common_data\common_data.h
+	<iostream>
+	"vector.h"
+
+1532603241 c:\root\projects\githubsandbox\hello-world\somesources\matlib\common_data\vector.h
+
+1058558756 c:\root\projects\githubsandbox\hello-world\somesources\matlib\real\real.h
+	"../common_data/common_data.h"
+
+1058558756 source:c:\root\projects\githubsandbox\hello-world\somesources\matlib\complexmatrix\complexmatrix.cpp
+	"ComplexMatrix.h"
+	"../common_data/common_data.h"
+	<cmath>
+	<ctime>
+	<fstream>
+	<cstdlib>
+	<string>
+
+1058558756 c:\root\projects\githubsandbox\hello-world\somesources\matlib\complexmatrix\complexmatrix.h
+	"../complex/complex.h"
+
+1058558756 source:c:\root\projects\githubsandbox\hello-world\somesources\matlib\doublecomparisons\doublecomparisons.cpp
+	"DoubleComparisons.h"
+
+1058558756 c:\root\projects\githubsandbox\hello-world\somesources\matlib\doublecomparisons\doublecomparisons.h
+
+1058558756 source:c:\root\projects\githubsandbox\hello-world\somesources\matlib\integrate\integrate.cpp
+	"Integrate.h"
+	<ctime>
+	<cmath>
+
+1058558756 c:\root\projects\githubsandbox\hello-world\somesources\matlib\integrate\integrate.h
+	<cmath>
+
+1058558756 source:c:\root\projects\githubsandbox\hello-world\somesources\matlib\mystring\mystring.cpp
+	"MyString.h"
+
+1058558756 c:\root\projects\githubsandbox\hello-world\somesources\matlib\mystring\mystring.h
+
+1532604887 source:c:\root\projects\githubsandbox\hello-world\somesources\matlib\doublecomparisons\m.cpp
+	"DoubleComparisons.h"
+
+1532602974 source:c:\root\projects\githubsandbox\hello-world\somesources\matlib\matlib.cpp
+
+1058558756 source:c:\root\projects\githubsandbox\hello-world\somesources\matlib\real\real.cpp
+	"real.h"
+
+1058558756 source:c:\root\projects\githubsandbox\hello-world\somesources\matlib\realmatrix\realmatrix.cpp
+	"RealMatrix.h"
+	"../common_data/common_data.h"
+	<cmath>
+	<ctime>
+	<fstream>
+	<cstdlib>
+	<string>
+
+1058558756 c:\root\projects\githubsandbox\hello-world\somesources\matlib\realmatrix\realmatrix.h
+
+1532603136 source:c:\root\projects\githubsandbox\hello-world\somesources\matlib\stringmatrix\stringmatrix.cpp
+	"StringMatrix.h"
+	"../common_data/common_data.h"
+	<ctime>
+	<fstream>
+	<cstdlib>
+
+1058558756 c:\root\projects\githubsandbox\hello-world\somesources\matlib\stringmatrix\stringmatrix.h
+	<string>
+
+1532605115 source:c:\root\projects\githubsandbox\hello-world\somesources\matlib\utilitiesrepository\sortedmap.cpp
+	<map>
+	<set>
+	<string>
+	<iostream>
+	<cstdio>
+
+1532613844 source:c:\root\projects\githubsandbox\hello-world\somesources\matlib\test\m.cpp
+	"../complex/complex.h"
+	"../RealMatrix/RealMatrix.h"
+	"../ComplexMatrix/ComplexMatrix.h"
+	"../StringMatrix/StringMatrix.h"
+	"../real/real.h"
+	"../DoubleComparisons/DoubleComparisons.h"
+	"../integrate/Integrate.h"
+	"../common_data/vector.h"
+	"../common_data/common_data.h"
+	"../MyString/MyString.h"
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<ctime>
+	<vector>
+
+1532605061 source:c:\root\projects\githubsandbox\hello-world\somesources\matlib\test_console.cpp
+
+1532605090 source:c:\root\projects\githubsandbox\hello-world\somesources\matlib\utilitiesrepository\set.cpp
+	<set>
+	<iostream>
+	<algorithm>
+	<cstdio>
+
+1532605144 source:c:\root\projects\githubsandbox\hello-world\somesources\matlib\utilitiesrepository\sortedvector.cpp
+	<cstdio>
+	<vector>
+	<iostream>
+	<algorithm>
+
+1532605185 source:c:\root\projects\githubsandbox\hello-world\somesources\matlib\utilitiesrepository\useset.cpp
+
+1532604859 source:c:\root\projects\githubsandbox\hello-world\somesources\matlib\matlib\main.cpp
+

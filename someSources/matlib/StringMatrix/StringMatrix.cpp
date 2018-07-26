@@ -4,7 +4,7 @@
 
 #include<ctime>      // for srand(time())
 #include<fstream>    // for the data files
-//#include<cstdlib>    // for rand() but already included from <string>
+#include<cstdlib>    // for rand() but already included from <string>
 
 
 

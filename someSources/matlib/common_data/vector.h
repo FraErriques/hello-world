@@ -36,7 +36,7 @@ template <class T> class Vector
 
 template <class T>
 Vector<T>::Vector (void)
-{ 
+{
    store = NULL;
    cardinality = 0;
    last = 0;
@@ -46,7 +46,7 @@ Vector<T>::Vector (void)
 
 template <class T>
 Vector<T>::~Vector (void)
-{ 
+{
    delete[] store;
 }
 
@@ -124,7 +124,7 @@ bool
 Vector<T>::push_back    (const T & entry)
 {
 size_t chunk_size;
-# define M_DEBUG
+//# define M_DEBUG
 # ifdef M_DEBUG
 static unsigned k = 0;
 # endif
