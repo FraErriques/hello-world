@@ -1,5 +1,5 @@
 
-# include "../Real/DoubleComparisons.h"
+# include "DoubleComparisons.h"
 
 
 bool test (void)
@@ -25,10 +25,10 @@ bool test (void)
    return true;
 }
 
-
-int main (void)
-{
-   bool result = test();
-   if ( ! result) {return 1;}
-   return 0;
-}
+//
+//int main (void)
+//{
+//   bool result = test();
+//   if ( ! result) {return 1;}
+//   return 0;
+//}

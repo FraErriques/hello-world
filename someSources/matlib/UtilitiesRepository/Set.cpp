@@ -1,10 +1,11 @@
 
-#pragma warning(disable:4786)
+//#pragma warning(disable:4786)
 
 
 # include <set>
 # include <iostream>
 # include <algorithm>
+# include <cstdio>
 
 struct Entry
 {
@@ -41,41 +42,41 @@ bool smaller ( T & a,  T & b)
    return a.time < b.time;
 }
 
-
-
-int main ()
-{
-   Curve curve;
-
-   Entry tmp;
-   long t;
-   double y;
-
-   for (t=52020, y=2.0; t>52000; t--, y-=0.1)
-   {
-      tmp.time = t;
-      tmp.value = y;
-      curve.insert ( tmp );
-   }
-
-
-   Curve::iterator p, e;
-   write_entry (curve); // show
-
-   p = curve.begin();
-   e = curve.end();
-//   std::random_shuffle (p, e);
-   write_entry (curve); // show
-
-   p = curve.begin();
-   e = curve.end();
-   Curve::iterator r = curve.begin();
-  
-   // make a istance of the Predicate; since it's a template it has no linkage  !!!!
-   smaller<Entry>(*p,*(r));  //   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-//   std::sort (p, e, smaller<Entry> ); // !!! otherwise this doesn't work
-   write_entry (curve); // show
-
-   getchar();
-   return 0;
-}
+//
+//
+//int main ()
+//{
+//   Curve curve;
+//
+//   Entry tmp;
+//   long t;
+//   double y;
+//
+//   for (t=52020, y=2.0; t>52000; t--, y-=0.1)
+//   {
+//      tmp.time = t;
+//      tmp.value = y;
+//      curve.insert ( tmp );
+//   }
+//
+//
+//   Curve::iterator p, e;
+//   write_entry (curve); // show
+//
+//   p = curve.begin();
+//   e = curve.end();
+////   std::random_shuffle (p, e);
+//   write_entry (curve); // show
+//
+//   p = curve.begin();
+//   e = curve.end();
+//   Curve::iterator r = curve.begin();
+//
+////   // make a istance of the Predicate; since it's a template it has no linkage  !!!!
+////   smaller<Entry>(*p,*(r));  //   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+//////   std::sort (p, e, smaller<Entry> ); // !!! otherwise this doesn't work
+////   write_entry (curve); // show
+//
+//   getchar();
+//   return 0;
+//}
