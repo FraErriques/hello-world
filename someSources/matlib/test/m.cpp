@@ -17,49 +17,49 @@
 #include <cstdlib>
 #include <ctime>
 
-//
-//bool test_DoubleComparisons (void)
-//{
-//   Real a(3.141514151415);
-//   Real b(3.141514151415);
-//   Real inc(1.141514151415e-13);
-//
-//
-//   for ( int c=0; c<2000; c++, a+=inc, b+=inc )
-//   {
-//      if(b<a)
-//         {return false;}
-//      if(b>a)
-//         {return false;}
-//      if( ! (b<=a) )
-//         {return false;}
-//      if(! (b>=a) )
-//         {return false;}
-//      if(! (b==a) )
-//         {return false;}
-//   }
-//   return true;
-//}
-//
+
+bool test_DoubleComparisons (void)
+{
+   Real a(3.141514151415);
+   Real b(3.141514151415);
+   Real inc(1.141514151415e-13);
+
+
+   for ( int c=0; c<2000; c++, a+=inc, b+=inc )
+   {
+      if(b<a)
+         {return false;}
+      if(b>a)
+         {return false;}
+      if( ! (b<=a) )
+         {return false;}
+      if(! (b>=a) )
+         {return false;}
+      if(! (b==a) )
+         {return false;}
+   }
+   return true;
+}
 
 
 
 
-//
-//bool Complex_test (void)
-//{
-//   Numerics::Complex z(3.1415);
-//   Numerics::Complex w = z.SinhC ();
-//   w = z.CoshC ();
-//
-//   z.set_Re (1.57);
-//   w = z.LnC ();
-//
-//   z.set_Re (0.78);
-//   w = z.SinC ();
-//
-//   return true;
-//}
+
+
+bool Complex_test (void)
+{
+   Numerics::Complex z(3.1415);
+   Numerics::Complex w = z.SinhC ();
+   w = z.CoshC ();
+
+   z.set_Re (1.57);
+   w = z.LnC ();
+
+   z.set_Re (0.78);
+   w = z.SinC ();
+
+   return true;
+}
 
 int printC (Numerics::Complex & z)
 {
@@ -182,8 +182,8 @@ void test_Matrix_real_1 (void)
       ActualType  identity = www * inverse;
       identity.show();
       // this is dimensionally uncompatible
-      ActualType  product1 = www * www;
-      product1.show();
+//      ActualType  product1 = www * www;
+//      product1.show();
    }
    catch(Crash &cr)
    {
@@ -274,8 +274,8 @@ void test_Matrix_Complex (void)
       ActualType  identity = www * inverse;
       identity.show();
       // this is dimensionally uncompatible
-      ActualType  product1 = mat * www; // throws
-      product1.show();
+//      ActualType  product1 = mat * www; // throws
+//      product1.show();
    }
    catch(Crash)
    {
@@ -513,16 +513,16 @@ void test_vector_3 (void)
 int main (void)
 {
 
-//   test_Integrate();
-//   test_Newton_Raphson ();
-//   test_Matrix_Complex();
+   test_Integrate();
+   test_Newton_Raphson ();
+   test_Matrix_Complex();
    test_Matrix_real_1();
    test_Matrix_real_2(); // test operators (+,-,*,=)
    test_Matrix_real_3();
 
-//   test_vector_1 ();
+   test_vector_1 ();
    std::cout << "\n\n";
-//   test_vector_2 ();
+   test_vector_2 ();
    std::cout << "\n\n";
 /*
    test_vector_3 ();
