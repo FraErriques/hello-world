@@ -1,7 +1,11 @@
 
-#include "complex.h"
+#include "Complex.h"
 #include "../common_data/common_data.h"  // for PI and Domain
 
+# ifndef NULL
+   # define NULL 0
+   # define _NULL__REDEFINED_
+# endif
 
 # ifndef size_t
    # define size_t unsigned int
@@ -392,8 +396,11 @@ Complex  Complex::SetTanhC    (void) const
 
 } // closing namespace Numerics
 
+
+# ifdef _NULL__REDEFINED_
+   # undef NULL
+# endif
+
 # ifdef _size_t__REDEFINED_
    # undef size_t
 # endif
-
-

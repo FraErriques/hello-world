@@ -7,21 +7,23 @@
  */
 
 
+
 #ifndef __COMPLEX_MATRIX_
 #define __COMPLEX_MATRIX_
 
+#include<cstddef>
 
-#include "../complex/complex.h"
+#include "../Complex/Complex.h"
 
-# ifndef NULL
-   # define NULL 0
-   # define _NULL__REDEFINED_
-# endif
-
-# ifndef size_t
-   # define size_t unsigned int
-   # define _size_t__REDEFINED_
-# endif
+//# ifndef NULL
+//   # define NULL 0
+//   # define _NULL__REDEFINED_
+//# endif
+//
+//# ifndef size_t
+//   # define size_t unsigned int
+//   # define _size_t__REDEFINED_
+//# endif
 
 namespace Numerics   {
 
@@ -76,12 +78,12 @@ private:
 
 } // closing namespace Numerics
 
-# ifdef _NULL__REDEFINED_
-   # undef NULL
-# endif
-
-# ifdef _size_t__REDEFINED_
-   # undef size_t
-# endif
+//# ifdef _NULL__REDEFINED_
+//   # undef NULL
+//# endif
+//
+//# ifdef _size_t__REDEFINED_
+//   # undef size_t
+//# endif
 
 #endif

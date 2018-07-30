@@ -7,6 +7,7 @@
 #include<fstream>    // for the data files
 #include<cstdlib>    // for rand()
 #include<string>
+#include<cstddef>
 
 
 namespace Numerics {
@@ -358,7 +359,7 @@ void ComplexMatrix::show ( size_t set_precision ) const
    if ( m == NULL ) return;
    if ( 20 < set_precision )
       { set_precision = 20; }
-   std::cout.precision (set_precision);      
+   std::cout.precision (set_precision);
    std::cout<<"\n\n";
    for (row=0; row<rows; row++)  //  show matrix
    {

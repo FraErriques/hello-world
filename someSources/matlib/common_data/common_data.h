@@ -2,12 +2,17 @@
 # ifndef _COMMON_DATA_
 # define _COMMON_DATA_
 
+#include <iostream>
+#include <cmath>
+
 typedef short Domain; // type for throwing exceptions
 
-const double PI = 3.1415926535897932384626433832795; // double PI = 6.0 * arctan ( pow (3.0, -0.5) );
-const double E  = 2.7182818284590452353602874713527;
+#define PI M_PI
 
-#include <iostream>
+//const double PI = 3.1415926535897932384626433832795; // double PI = 6.0 * arctan ( pow (3.0, -0.5) );
+//const double E  = 2.7182818284590452353602874713527;
+
+
 struct Crash // a type for Exception-Handling
 {
    Crash (const char * message) {std::cout << "\n\t" << message << "\n\t";}

@@ -117,3 +117,20 @@
 
 1532604859 source:c:\root\projects\githubsandbox\hello-world\somesources\matlib\matlib\main.cpp
 
+1532942052 source:/home/fra/src/GitHubSandBox/hello-world/someSources/matlib/complex/complex.cpp
+	"complex.h"
+	"../common_data/common_data.h"
+	"../real/real.h"
+	<cmath>
+
+1532621976 /home/fra/src/GitHubSandBox/hello-world/someSources/matlib/complex/complex.h
+
+1532621976 /home/fra/src/GitHubSandBox/hello-world/someSources/matlib/common_data/common_data.h
+	<iostream>
+	"vector.h"
+
+1532621976 /home/fra/src/GitHubSandBox/hello-world/someSources/matlib/common_data/vector.h
+
+1532621976 /home/fra/src/GitHubSandBox/hello-world/someSources/matlib/real/real.h
+	"../common_data/common_data.h"
+
