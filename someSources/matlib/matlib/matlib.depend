@@ -125,12 +125,84 @@
 
 1532621976 /home/fra/src/GitHubSandBox/hello-world/someSources/matlib/complex/complex.h
 
-1532621976 /home/fra/src/GitHubSandBox/hello-world/someSources/matlib/common_data/common_data.h
+1532943860 /home/fra/src/GitHubSandBox/hello-world/someSources/matlib/common_data/common_data.h
 	<iostream>
+	<cmath>
 	"vector.h"
 
 1532621976 /home/fra/src/GitHubSandBox/hello-world/someSources/matlib/common_data/vector.h
 
 1532621976 /home/fra/src/GitHubSandBox/hello-world/someSources/matlib/real/real.h
 	"../common_data/common_data.h"
+
+1532950390 source:/home/fra/src/GitHubSandBox/hello-world/someSources/matlib/Complex/Complex.cpp
+	"Complex.h"
+	"../common_data/common_data.h"
+	"../real/real.h"
+	<cmath>
+
+1532621976 /home/fra/src/GitHubSandBox/hello-world/someSources/matlib/Complex/Complex.h
+
+1532942290 source:/home/fra/src/GitHubSandBox/hello-world/someSources/matlib/ComplexMatrix/ComplexMatrix.cpp
+	"ComplexMatrix.h"
+	"../common_data/common_data.h"
+	<cmath>
+	<ctime>
+	<fstream>
+	<cstdlib>
+	<string>
+	<cstddef>
+
+1532950474 /home/fra/src/GitHubSandBox/hello-world/someSources/matlib/ComplexMatrix/ComplexMatrix.h
+	<cstddef>
+	"../Complex/Complex.h"
+
+1532621976 source:/home/fra/src/GitHubSandBox/hello-world/someSources/matlib/RealMatrix/RealMatrix.cpp
+	"RealMatrix.h"
+	"../common_data/common_data.h"
+	<cmath>
+	<ctime>
+	<fstream>
+	<cstdlib>
+	<string>
+
+1532942999 /home/fra/src/GitHubSandBox/hello-world/someSources/matlib/RealMatrix/RealMatrix.h
+	<cstddef>
+
+1532621976 source:/home/fra/src/GitHubSandBox/hello-world/someSources/matlib/integrate/Integrate.cpp
+	"Integrate.h"
+	<ctime>
+	<cmath>
+
+1532621976 /home/fra/src/GitHubSandBox/hello-world/someSources/matlib/integrate/Integrate.h
+	<cmath>
+
+1532621976 source:/home/fra/src/GitHubSandBox/hello-world/someSources/matlib/StringMatrix/StringMatrix.cpp
+	"StringMatrix.h"
+	"../common_data/common_data.h"
+	<ctime>
+	<fstream>
+	<cstdlib>
+
+1532962326 /home/fra/src/GitHubSandBox/hello-world/someSources/matlib/StringMatrix/StringMatrix.h
+	<cstddef>
+	<string>
+
+1532621976 source:/home/fra/src/GitHubSandBox/hello-world/someSources/matlib/real/real.cpp
+	"real.h"
+
+1532964234 source:/home/fra/src/GitHubSandBox/hello-world/someSources/matlib/test/m.cpp
+	"../common_data/common_data.h"
+	"../common_data/vector.h"
+	"../RealMatrix/RealMatrix.h"
+	"../Complex/Complex.h"
+	"../ComplexMatrix/ComplexMatrix.h"
+	"../StringMatrix/StringMatrix.h"
+	"../real/real.h"
+	"../integrate/Integrate.h"
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<ctime>
+	<vector>
 

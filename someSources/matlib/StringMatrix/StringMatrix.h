@@ -3,24 +3,25 @@
  *  \class  Numerics::StringMatrix
  *  \brief  a Linear Algebra class
  *  \author F. Erriques
- *  \since  Thu Dec 27 16:27:37 CET 2001
+ *  \since  Thu Dec 27 16:27:37 CET 2001 ::Voghera.
  */
 
 
 #ifndef __STRING_MATRIX_
 #define __STRING_MATRIX_
 
+#include<cstddef>
 #include <string>
-
-# ifndef NULL
-   # define NULL 0
-   # define _NULL__REDEFINED_
-# endif
-
-# ifndef size_t
-   # define size_t unsigned int
-   # define _size_t__REDEFINED_
-# endif
+//
+//# ifndef NULL
+//   # define NULL 0
+//   # define _NULL__REDEFINED_
+//# endif
+//
+//# ifndef size_t
+//   # define size_t unsigned int
+//   # define _size_t__REDEFINED_
+//# endif
 
 
 
@@ -66,13 +67,13 @@ private:
 };
 
 
-# ifdef _NULL__REDEFINED_
-   # undef NULL
-# endif
-
-# ifdef _size_t__REDEFINED_
-   # undef size_t
-# endif
+//# ifdef _NULL__REDEFINED_
+//   # undef NULL
+//# endif
+//
+//# ifdef _size_t__REDEFINED_
+//   # undef size_t
+//# endif
 
 #endif
 
