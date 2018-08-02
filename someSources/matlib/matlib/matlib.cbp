@@ -38,8 +38,14 @@
 		<Unit filename="../ComplexMatrix/ComplexMatrix.h" />
 		<Unit filename="../RealMatrix/RealMatrix.cpp" />
 		<Unit filename="../RealMatrix/RealMatrix.h" />
+		<Unit filename="../StringMatrix/StringMatrix.cpp" />
+		<Unit filename="../StringMatrix/StringMatrix.h" />
 		<Unit filename="../common_data/common_data.h" />
 		<Unit filename="../common_data/vector.h" />
+		<Unit filename="../integrate/Integrate.cpp" />
+		<Unit filename="../integrate/Integrate.h" />
+		<Unit filename="../real/real.cpp" />
+		<Unit filename="../real/real.h" />
 		<Unit filename="../test/m.cpp" />
 		<Extensions>
 			<code_completion />

@@ -26,4 +26,6 @@ Release/
 *.exe
 *.out
 *.app
+*.layout
+*.depend
 
