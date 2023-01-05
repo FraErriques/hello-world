@@ -2,3 +2,4 @@ some data
 
 some data
 some more data
+NB. on 2023.January.05 a protection has been set on branch "master". This file is used to test pushes, after such a protection.
